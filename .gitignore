@@ -9,6 +9,7 @@
 build
 .idea
 nbproject/
+yarn.lock
 
 # hidden files created by Windows
 Thumbs.db
