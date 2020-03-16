@@ -1,0 +1,15 @@
+.clamp{
+  &__basic{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+  }
+  &__2{
+    @extend .clamp__basic;
+    -webkit-line-clamp: 2;
+  }
+  &__4{
+    @extend .clamp__basic;
+    -webkit-line-clamp: 4;
+  }
+}

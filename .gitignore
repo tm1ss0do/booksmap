@@ -1,0 +1,51 @@
+# temp files from editors
+*~
+*.bak
+.DS_Store
+.buildpath
+.project
+.settings
+*.tmproj
+build
+.idea
+nbproject/
+
+# hidden files created by Windows
+Thumbs.db
+desktop.ini
+
+# the composer package lock file and install directory
+/composer.lock
+/fuel/vendor
+
+# any of the fuel packages installed by default
+/docs/
+/fuel/core/
+/fuel/packages/auth/
+/fuel/packages/email/
+/fuel/packages/oil/
+/fuel/packages/orm/
+/fuel/packages/parser/
+
+# dynamically generated files
+/fuel/app/logs/*/*/*
+/fuel/app/cache/*/*
+/fuel/app/config/crypt.php
+
+# node
+node_modules
+
+# config files
+fuel/app/config/*.php
+fuel/app/config/*/*.php
+
+# test files [views]
+fuel/app/views/common/head.php
+fuel/app/views/common/header.php
+fuel/app/views/common/footer.php
+fuel/app/views/pages/bookSubmitCheck.php
+fuel/app/views/pages/pagination.php
+fuel/app/views/pages/no-searchHead.php
+fuel/app/views/pages/signUp.php
+fuel/app/views/pages/login.php
+fuel/app/views/template0.php

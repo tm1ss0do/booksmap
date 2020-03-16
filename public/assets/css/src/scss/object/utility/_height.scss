@@ -1,0 +1,31 @@
+.height{
+  &__250{
+    height:250px !important;
+  }
+  &__150{
+    height:150px !important;
+  }
+  &__80{
+    height:80px;
+  }
+}
+
+.max-height{
+  &__250{
+    max-height:250px;
+  }
+}
+
+//position
+
+.p-absolute0{
+  position:absolute;
+  top:0;
+}
+
+.right0{
+  right:0;
+}
+.bottom0{
+  bottom: 0;
+}

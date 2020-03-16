@@ -1,0 +1,21 @@
+.p-humberger{
+  &_container{
+    z-index: $zindex-navmenu;
+    @include media-breakpoint-up(sm) {
+    display: none;
+    }
+  }
+}
+
+.p-iconmenu{
+  &_container{
+    z-index: $zindex-navmenu;
+    @include media-breakpoint-down(xs) {
+    display: none;
+    }
+  }
+}
+
+.z-index-navmenu{
+  z-index: $zindex-navmenu;
+}
