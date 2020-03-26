@@ -250,7 +250,7 @@ class Controller_Signup extends Controller_Template
     $this->template->footer = View::forge('template/footer');
     $this->template->header = View::forge('template/header');
 
-      $this->template->content = View::forge('auth/signUp');
+      $this->template->content = View::forge('auth/signup');
       $this->template->btnContainer = View::set_global('btnContainer',View::forge('common/btnContainer'));
       $this->template->signupform = View::set_global('signupform',$form->build(), false);
       $this->template->error = View::set_global('error', $error);
